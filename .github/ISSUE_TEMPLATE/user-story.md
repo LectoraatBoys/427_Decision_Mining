@@ -3,7 +3,7 @@ name: User Story
 about: User Story Template
 title: 'Issue default title: As a {USER}, I would like to {FUNCTIONALITY}, so that
   {GOAL}'
-labels: User Story
+labels: Task, User Story
 assignees: ''
 
 ---

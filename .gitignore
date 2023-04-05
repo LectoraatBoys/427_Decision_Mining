@@ -132,3 +132,4 @@ dmypy.json
 results tryouts/
 drd's interface/
 .DS_Store
+text2dm/pipeline_models

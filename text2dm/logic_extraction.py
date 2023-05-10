@@ -2,6 +2,11 @@ from NERDA.models import NERDA
 import pandas as pd
 import nltk
 import os
+
+import warnings
+warnings.simplefilter(action='ignore', category= UserWarning)
+warnings.simplefilter(action='ignore', category= FutureWarning)
+
 # LOAD IN LOGIC EXTRACTION MODEL
 tag_scheme = ['B-CONS', 'I-CONS', 'B-COND', 'I-COND', 'B-ELSE', 'I-ELSE', 'B-EXCE', 'I-EXCE']
 transformer = 'bert-base-uncased'

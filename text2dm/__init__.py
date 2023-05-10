@@ -7,6 +7,7 @@ from text2dm import drd_tuple_construction
 from text2dm import drd_graph_construction
 from text2dm import logic_extraction
 from text2dm import xml_extraction
+from googletrans import Translator
 import pandas as pd
 import warnings
 import os
@@ -42,6 +43,12 @@ def text2drd(text):
     :param text: string
     :return: drd_tuple: (D, I, R) with D set of decision, I set of input information items and R set of requirements
     """
+
+    translator = Translator()
+    translation = translator.translate(text, src='nl', dest='en')
+    print(f"translation: {translation}")
+    text = translation.text
+
     # step 1: coreference resolution
     coref_resolved = coreference_resolution.resolve_coref(text)
     print('STEP 1/6 DONE: coreference resolution')

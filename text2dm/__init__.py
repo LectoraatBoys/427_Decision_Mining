@@ -123,6 +123,10 @@ def get_multiple_drd_tuples(df_examples):
 
 
 def extract_logic_table(text):
+    translator = Translator()
+    translation = translator.translate(text, src='nl', dest='en')
+    print(f"translation: {translation}")
+    text = translation.text
     coref_resolved = coreference_resolution.resolve_coref(text)
     # step 1: coreference resolution
     print('STEP 1/3 DONE: coreference resolution')

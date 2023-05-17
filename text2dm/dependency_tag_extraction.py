@@ -2,6 +2,11 @@ from NERDA.models import NERDA
 import pandas as pd
 import nltk
 import os
+
+import warnings
+warnings.simplefilter(action='ignore', category= UserWarning)
+warnings.simplefilter(action='ignore', category= FutureWarning)
+
 # LOAD IN BOTH MODELS DEPENDENCY EXTRACTION
 tag_scheme = ['B-DER', 'I-DER', 'B-BAS', 'I-BAS', 'B-ACT']
 transformer = 'bert-base-uncased'

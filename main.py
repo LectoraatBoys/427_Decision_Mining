@@ -2,6 +2,25 @@ import pandas as pd
 import argparse
 import requests
 import text2dm
+from flask import Flask, request, jsonify
+from Goossens import bar
+
+app = Flask(__name__)
+
+@app.route('/endpoint', methods=['POST'])
+def handle_post():
+    # Retrieve the data from the POST request
+    data = request.get_json()
+    # Extract the necessary information from the data
+    info = data['info']
+    # Pass the information to the bar function
+    # Perform any necessary operations or decisions based on the result
+    goossens = bar(info)
+    # hier vind de overgang naar Goossens plaats
+    main()
+    # Return a response
+    response = {'message': 'Response from Python server'}
+    return jsonify(response)
 
 def full_DMN_extraction(text):
     result_tuple = text2dm.text2drd(text)
@@ -56,5 +75,8 @@ def main():
     full_DMN_extraction(input_string)
 
 if __name__ == "__main__":
-    main()
+    # communicatie with Java
+    print(f"test print goossens {bar('foo')}")
+    app.run()
+    # main()
 

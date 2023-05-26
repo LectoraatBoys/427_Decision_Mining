@@ -1,123 +1,43 @@
-// motorway to motor for the motorway is None traffic exits to definitions None a transport of emission limit value
-digraph "motorway to motor for the motorway is None traffic exits to definitions None a transport of emission limit value" {
-	"parcels ,"
-	exits
-	traffic
-	"maximum mass of of mass"
-	"road specially designed built"
-	"external link"
-	"regulations on vehicle"
-	"regulations on"
-	"traffic with motor vehicles without"
-	"motor vehicle"
-	external
-	"motor vehicle without"
-	"intended used"
-	"permitted mass of the vehicle , a"
-	road
-	"motor vehicle the"
-	"2007/46/ec"
-	"motor vehicle tax"
-	strip
-	"places carriageways traffic directions carriageways from each other"
-	"parcels at"
-	"goods by"
-	"external link:715/2007"
-	"propelled by the vehicle , on"
-	maximum [shape=box]
-	"motorway to" [shape=box]
-	"motor for the" [shape=box]
-	"motorway is" [shape=box]
-	permitted [shape=box]
-	"None traffic" [shape=box]
-	"exits to" [shape=box]
-	definitions [shape=box]
-	"None a" [shape=box]
-	"transport of" [shape=box]
-	"emission limit value" [shape=box]
-	maximum -> "motor vehicle the" [dir=back]
-	"transport of" -> maximum [dir=back]
-	"None traffic" -> traffic [dir=back]
-	"motor for the" -> "regulations on vehicle" [dir=back]
-	permitted -> "regulations on vehicle" [dir=back]
-	"exits to" -> exits [dir=back]
-	"motor for the" -> "motor vehicle tax" [dir=back]
-	permitted -> "motor vehicle tax" [dir=back]
-	maximum -> road [dir=back]
-	"transport of" -> "motor vehicle" [dir=back]
-	"motorway to" -> exits [dir=back]
-	"transport of" -> "permitted mass of the vehicle , a" [dir=back]
-	"motor for the" -> road [dir=back]
-	permitted -> road [dir=back]
-	"motorway to" -> traffic [dir=back]
-	"None traffic" -> exits [dir=back]
-	"motorway to" -> "regulations on" [dir=back]
-	maximum -> "maximum mass of of mass" [dir=back]
-	"transport of" -> "motor vehicle the" [dir=back]
-	"motor for the" -> "motor vehicle the" [dir=back]
-	"exits to" -> "traffic with motor vehicles without" [dir=back]
-	permitted -> "motor vehicle the" [dir=back]
-	"transport of" -> "regulations on vehicle" [dir=back]
-	maximum -> permitted [dir=back]
-	"None traffic" -> "regulations on" [dir=back]
-	"exits to" -> "motor vehicle without" [dir=back]
-	"transport of" -> "motor vehicle tax" [dir=back]
-	"exits to" -> "parcels at" [dir=back]
-	"motorway to" -> "traffic with motor vehicles without" [dir=back]
-	maximum -> "goods by" [dir=back]
-	"None a" -> "regulations on" [dir=back]
-	"emission limit value" -> "2007/46/ec" [dir=back]
-	"transport of" -> road [dir=back]
-	maximum -> maximum [dir=back]
-	"None traffic" -> "traffic with motor vehicles without" [dir=back]
-	"motor for the" -> "goods by" [dir=back]
-	maximum -> "propelled by the vehicle , on" [dir=back]
-	permitted -> "goods by" [dir=back]
-	"exits to" -> "parcels ," [dir=back]
-	definitions -> "regulations on" [dir=back]
-	"exits to" -> "places carriageways traffic directions carriageways from each other" [dir=back]
-	"motor for the" -> "propelled by the vehicle , on" [dir=back]
-	"None traffic" -> "parcels at" [dir=back]
-	permitted -> "propelled by the vehicle , on" [dir=back]
-	"exits to" -> "road specially designed built" [dir=back]
-	"motor for the" -> "maximum mass of of mass" [dir=back]
-	permitted -> "maximum mass of of mass" [dir=back]
-	maximum -> "intended used" [dir=back]
-	"motor for the" -> permitted [dir=back]
-	permitted -> permitted [dir=back]
-	"motor for the" -> "intended used" [dir=back]
-	permitted -> "intended used" [dir=back]
-	"motorway to" -> "motor vehicle without" [dir=back]
-	"motorway is" -> "regulations on" [dir=back]
-	"None traffic" -> "places carriageways traffic directions carriageways from each other" [dir=back]
-	"exits to" -> strip [dir=back]
-	"None traffic" -> "road specially designed built" [dir=back]
-	"emission limit value" -> "external link":"715/2007" [dir=back]
-	"motorway to" -> "parcels at" [dir=back]
-	"transport of" -> "goods by" [dir=back]
-	maximum -> "regulations on vehicle" [dir=back]
-	"emission limit value" -> external [dir=back]
-	"motor for the" -> maximum [dir=back]
-	"None traffic" -> "motor vehicle without" [dir=back]
-	permitted -> maximum [dir=back]
-	"motorway to" -> strip [dir=back]
-	"transport of" -> "propelled by the vehicle , on" [dir=back]
-	maximum -> "motor vehicle tax" [dir=back]
-	"transport of" -> "maximum mass of of mass" [dir=back]
-	"motorway to" -> "parcels ," [dir=back]
-	maximum -> "motor vehicle" [dir=back]
-	"None traffic" -> strip [dir=back]
-	maximum -> "permitted mass of the vehicle , a" [dir=back]
-	"exits to" -> traffic [dir=back]
-	"motorway to" -> "places carriageways traffic directions carriageways from each other" [dir=back]
-	"motorway to" -> "road specially designed built" [dir=back]
-	"transport of" -> permitted [dir=back]
-	"motor for the" -> "motor vehicle" [dir=back]
-	"exits to" -> "regulations on" [dir=back]
-	permitted -> "motor vehicle" [dir=back]
-	"transport of" -> "intended used" [dir=back]
-	"None traffic" -> "parcels ," [dir=back]
-	"motor for the" -> "permitted mass of the vehicle , a" [dir=back]
-	permitted -> "permitted mass of the vehicle , a" [dir=back]
-	"emission limit value" -> "external link" [dir=back]
+// rate rate for rate for a rate for a for
+digraph "rate rate for rate for a rate for a for" {
+	vehicles
+	"None a period year"
+	motor
+	"euro iv category"
+	"euro ii category"
+	"euro vi"
+	category
+	"cleaner category"
+	"None period year"
+	"None period one year"
+	"category euro i"
+	axles
+	"motor vehicles"
+	"euro iii category"
+	rate [shape=box]
+	"rate for" [shape=box]
+	"rate for a" [shape=box]
+	"rate for a for" [shape=box]
+	"rate for a" -> "euro iv category" [dir=back]
+	"rate for a for" -> "motor vehicles" [dir=back]
+	"rate for a for" -> "euro vi" [dir=back]
+	"rate for a for" -> "None period year" [dir=back]
+	"rate for" -> "euro ii category" [dir=back]
+	"rate for" -> "motor vehicles" [dir=back]
+	"rate for a" -> axles [dir=back]
+	rate -> vehicles [dir=back]
+	rate -> axles [dir=back]
+	"rate for a" -> "motor vehicles" [dir=back]
+	rate -> "category euro i" [dir=back]
+	"rate for" -> "None a period year" [dir=back]
+	"rate for a" -> "None period year" [dir=back]
+	rate -> "motor vehicles" [dir=back]
+	"rate for a for" -> axles [dir=back]
+	"rate for a" -> category [dir=back]
+	"rate for a for" -> "cleaner category" [dir=back]
+	rate -> motor [dir=back]
+	"rate for a" -> "euro iii category" [dir=back]
+	"rate for" -> axles [dir=back]
+	rate -> category [dir=back]
+	"rate for a" -> "None period one year" [dir=back]
 }

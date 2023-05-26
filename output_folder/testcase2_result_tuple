@@ -1,0 +1,42 @@
+// tax as to exemption from tax
+digraph "tax as to exemption from tax" {
+	police
+	"motor vehicles are used by"
+	conditions
+	"motor vehicles used by of"
+	"fire brigade as"
+	"conditions in council"
+	"motor vehicle tax"
+	"motor vehicles belonging to"
+	"company stock of the"
+	"tax as to" [shape=box]
+	"exemption from" [shape=box]
+	tax [shape=box]
+	"tax as to" -> "motor vehicle tax" [dir=back]
+	tax -> "motor vehicle tax" [dir=back]
+	tax -> police [dir=back]
+	"tax as to" -> police [dir=back]
+	"exemption from" -> "motor vehicle tax" [dir=back]
+	tax -> "motor vehicles belonging to" [dir=back]
+	"tax as to" -> "motor vehicles belonging to" [dir=back]
+	"exemption from" -> police [dir=back]
+	"tax as to" -> "conditions in council" [dir=back]
+	tax -> "conditions in council" [dir=back]
+	tax -> "motor vehicles are used by" [dir=back]
+	"tax as to" -> "motor vehicles used by of" [dir=back]
+	"exemption from" -> "motor vehicles belonging to" [dir=back]
+	tax -> "motor vehicles used by of" [dir=back]
+	"tax as to" -> "motor vehicles are used by" [dir=back]
+	"exemption from" -> "conditions in council" [dir=back]
+	"tax as to" -> conditions [dir=back]
+	tax -> conditions [dir=back]
+	"tax as to" -> "fire brigade as" [dir=back]
+	tax -> "fire brigade as" [dir=back]
+	"exemption from" -> "motor vehicles used by of" [dir=back]
+	"exemption from" -> "motor vehicles are used by" [dir=back]
+	"exemption from" -> conditions [dir=back]
+	"exemption from" -> "fire brigade as" [dir=back]
+	"tax as to" -> "company stock of the" [dir=back]
+	tax -> "company stock of the" [dir=back]
+	"exemption from" -> "company stock of the" [dir=back]
+}

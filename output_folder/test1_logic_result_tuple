@@ -1,0 +1,19 @@
+// rate
+digraph rate {
+	"motor vehicles with three"
+	"period motor vehicles with three"
+	category
+	"axles or"
+	rate [shape=box]
+	period [shape=box]
+	rate -> "axles or" [dir=back]
+	rate -> "period motor vehicles with three" [dir=back]
+	rate -> "motor vehicles with three" [dir=back]
+	rate -> category [dir=back]
+	period -> period [dir=back]
+	period -> "axles or" [dir=back]
+	period -> "period motor vehicles with three" [dir=back]
+	rate -> period [dir=back]
+	period -> category [dir=back]
+	period -> "motor vehicles with three" [dir=back]
+}

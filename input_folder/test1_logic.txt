@@ -1,0 +1,15 @@
+Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met drie assen of minder en in de categorie EURO 0 € 1.407
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met drie assen of minder en in de categorie EURO I € 1.223
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met drie assen of minder en in de categorie EURO II € 1.065
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met drie assen of minder en in de categorie EURO III € 926
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met drie assen of minder en in de categorie EURO IV € 842
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met drie assen of minder en in de categorie EURO V € 796
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met drie assen of minder en in de categorie EURO VI en schoner € 750;
+
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met vier assen of meer en in de categorie EURO 0 € 2.359
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met vier assen of meer en in de categorie EURO I € 2.042
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met vier assen of meer en in de categorie EURO II € 1.776
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met vier assen of meer en in de categorie EURO III € 1.543
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met vier assen of meer en in de categorie EURO IV € 1.404
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met vier assen of meer en in de categorie EURO V € 1.327
+    Het tarief bedraagt voor een tijdvak van één jaar voor motorrijtuigen met vier assen of meer en in de categorie EURO EURO VI en schoner € 1.250.

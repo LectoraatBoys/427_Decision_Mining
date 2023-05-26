@@ -9,6 +9,10 @@ app = Flask(__name__)
 
 @app.route('/endpoint', methods=['POST'])
 def handle_post():
+    """
+    To access the /endpoint route and execute the handle_post function,
+    you should send a POST request to http://127.0.0.1:5000/endpoint from the Java program.
+    """
     # Retrieve the data from the POST request
     data = request.get_json()
     # Extract the necessary information from the data

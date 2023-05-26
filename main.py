@@ -1,9 +1,10 @@
 import pandas as pd
 import argparse
 import requests
-import text2dm
+# import text2dm
 from flask import Flask, request, jsonify
 from Goossens import bar
+from Translator import Vertaler
 
 app = Flask(__name__)
 
@@ -34,7 +35,6 @@ def full_DMN_extraction(text):
     print(result_logic)
 
 
-
 def send_post_message_to_localhost(DRD_path, logic_table_path):
     url = "http://localhost:5000/api/v1.0/"
     payload = {"path_to_DRD": DRD_path,
@@ -60,6 +60,12 @@ def process_file(filename):
     return "".join(str_builder)
 
 def main():
+    dutch = 'input_folder/testcases Dutch.txt'
+    english = 'input_folder/testcases English.txt'
+    translator = Vertaler()
+    translator.translate_text_file(dutch, english)
+    english = translator.read_translated_file(english)
+    print(english)
     input_string = """
     1 Het bevoegd gezag van een instelling is verplicht, ho-studenten die zijn ingeschreven voor een opleiding voor het beroep van leraar waarop de Wet op het hoger onderwijs en wetenschappelijk onderzoek betrekking heeft, of die anderszins studeren voor een bewijs van voldoende pedagogische bekwaamheid, en die in opleiding zijn voor een functie in het onderwijs, gelegenheid te bieden de als onderdeel van hun opleiding vereiste ervaring in de instelling te verkrijgen.
 
@@ -73,14 +79,15 @@ def main():
 
     6 De instellingen waarbij ho-studenten als bedoeld in het eerste lid zijn toegelaten, zijn toegankelijk voor de inspectie, belast met het toezicht op de opleidingsinstellingen, voor de directieleden en de door deze aan te wijzen docenten van die opleidingsinstellingen, alsmede voor de leden van de betrokken staatsexamencommissies, een en ander voor zover dat voor de uitoefening van het toezicht op de praktische vorming onderscheidenlijk de begeleiding van de praktische vorming van de in de instelling aanwezige ho-studenten noodzakelijk is.
     """
-
+    input_string = english
     input_string = process_file(parse_CMD_arg())
-
     full_DMN_extraction(input_string)
 
 if __name__ == "__main__":
+    print("START")
     # communicatie with Java
-    print(f"test print goossens {bar('foo')}")
-    app.run()
-    # main()
+    # print(f"test print goossens {bar('foo')}")
+    # app.run()
+    main()
+    print("EINDE")
 

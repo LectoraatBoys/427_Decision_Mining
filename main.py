@@ -3,7 +3,6 @@ import argparse
 import requests
 import text2dm
 from flask import Flask, request, jsonify
-from Goossens import bar
 from Translator import Vertaler
 
 app = Flask(__name__)
@@ -18,11 +17,12 @@ def handle_post():
     data = request.get_json()
     # Extract the necessary information from the data
     info = data['info']
+    file_name = data['file_name']
     # Pass the information to the bar function
     # Perform any necessary operations or decisions based on the result
-    goossens = bar(info)
+
+    full_DMN_extraction(info, filename=file_name)
     # hier vind de overgang naar Goossens plaats
-    main()
     # Return a response
     response = {'message': 'Response from Python server'}
     return jsonify(response)
@@ -59,20 +59,22 @@ def main():
     # english = 'input_folder/testcases English.txt'
     # translator = Vertaler()
     # translator.translate_text_file(dutch, english)
-    # english = translator.read_translated_file(english)
+    # english = translator.read_translated_file(english)*-+
+    
     # print(english)
     # input_string = english
 
 
-    input_string = process_file(parse_CMD_arg())
-    input_name = "testcases_Dutch"
-    full_DMN_extraction(input_string,filename=input_name)
+    # input_string = process_file(parse_CMD_arg())
+    # input_name = "testcases_Dutch"
+    # full_DMN_extraction(input_string,filename=input_name)
+    pass
 
 if __name__ == "__main__":
     print("START")
     # communicatie with Java
     # print(f"test print goossens {bar('foo')}")
-    # app.run()
-    main()
+    app.run()
+    # main()
     print("EINDE")
 

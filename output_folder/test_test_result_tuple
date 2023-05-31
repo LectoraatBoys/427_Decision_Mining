@@ -1,0 +1,35 @@
+// rate for a period rate for a
+digraph "rate for a period rate for a" {
+	"period year"
+	axles
+	"euro i category"
+	category
+	"None period one year"
+	"euro iii category"
+	"euro 0 category"
+	"motor vehicles"
+	"cleaner category"
+	"None year"
+	"euro v category"
+	"euro iv category"
+	euro
+	"period one year"
+	"rate for a period" [shape=box]
+	"rate for a" [shape=box]
+	"rate for a" -> "motor vehicles" [dir=back]
+	"rate for a" -> "euro iii category" [dir=back]
+	"rate for a period" -> "motor vehicles" [dir=back]
+	"rate for a period" -> "None year" [dir=back]
+	"rate for a" -> "period year" [dir=back]
+	"rate for a period" -> euro [dir=back]
+	"rate for a" -> "period one year" [dir=back]
+	"rate for a" -> "euro 0 category" [dir=back]
+	"rate for a" -> "None period one year" [dir=back]
+	"rate for a" -> axles [dir=back]
+	"rate for a" -> "euro i category" [dir=back]
+	"rate for a" -> "euro iv category" [dir=back]
+	"rate for a period" -> "cleaner category" [dir=back]
+	"rate for a" -> category [dir=back]
+	"rate for a period" -> axles [dir=back]
+	"rate for a" -> "euro v category" [dir=back]
+}

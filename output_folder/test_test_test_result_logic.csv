@@ -1,0 +1,15 @@
+,Condition,Exception,Then-consequence,Else-consequence
+0,period of one yearmotor vehicles with three axles or less and in euro 0 category,/,"rate is € 1,407",/
+1,None of one yearmotor vehicles with three axles or less and in euro i category,/,"rate for period is €1,223",/
+2,/,/,"ii €1,065",/
+3,period of one yearmotor vehicles with three axles or less and in euro iii category,/,rate is € 926,/
+4,period of one yearmotor vehicles with three axles or less and in euro iv category,/,rate is € 842,/
+5,period of one yearmotor vehicles with three axles or less and in euro v category,/,rate is € 796,/
+6,None one yearmotor vehicles with three axles or less and in euro vi and cleaner category is,/,rate for period of € 750 this is filler phrase,/
+7,period of one yearmotor vehicles with four axles or more and in euro iii category,/,"rate is € 2,359",/
+8,None of one yearmotor vehicles with four axles or more and in euro i category,/,"rate period is € 2,042",/
+9,period of one yearmotor vehicles with four axles or more and in euro iii category,/,"rate is € 1,776",/
+10,period of one yearmotor vehicles with four axles or more and in euro iii category,/,"rate is € 1,543",/
+11,period of one yearmotor vehicles with four axles or more and in euro iv category,/,"rate is € 1,404",/
+12,period of one yearmotor vehicles with four axles or more and in euro v category,/,"rate is € 1,327",/
+13,period of one yearmotor vehicles with four axles or more and in category euro euro vi and cleaner,/,"rate for is € 1,250",/

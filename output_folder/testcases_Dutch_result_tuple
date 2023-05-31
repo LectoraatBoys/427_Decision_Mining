@@ -1,43 +1,43 @@
-// rate rate for rate for a rate for a for
-digraph "rate rate for rate for a rate for a for" {
-	vehicles
-	"None a period year"
-	motor
-	"euro iv category"
+// rate rate for a for rate for a rate for
+digraph "rate rate for a for rate for a rate for" {
 	"euro ii category"
-	"euro vi"
-	category
-	"cleaner category"
-	"None period year"
+	"euro iii category"
 	"None period one year"
-	"category euro i"
 	axles
 	"motor vehicles"
-	"euro iii category"
+	"None a period year"
+	"category euro i"
+	category
+	"euro iv category"
+	"None period year"
+	"euro vi"
+	motor
+	vehicles
+	"cleaner category"
 	rate [shape=box]
-	"rate for" [shape=box]
-	"rate for a" [shape=box]
 	"rate for a for" [shape=box]
-	"rate for a" -> "euro iv category" [dir=back]
-	"rate for a for" -> "motor vehicles" [dir=back]
-	"rate for a for" -> "euro vi" [dir=back]
-	"rate for a for" -> "None period year" [dir=back]
-	"rate for" -> "euro ii category" [dir=back]
+	"rate for a" [shape=box]
+	"rate for" [shape=box]
 	"rate for" -> "motor vehicles" [dir=back]
-	"rate for a" -> axles [dir=back]
+	"rate for a for" -> "euro vi" [dir=back]
 	rate -> vehicles [dir=back]
-	rate -> axles [dir=back]
-	"rate for a" -> "motor vehicles" [dir=back]
-	rate -> "category euro i" [dir=back]
-	"rate for" -> "None a period year" [dir=back]
-	"rate for a" -> "None period year" [dir=back]
 	rate -> "motor vehicles" [dir=back]
-	"rate for a for" -> axles [dir=back]
-	"rate for a" -> category [dir=back]
-	"rate for a for" -> "cleaner category" [dir=back]
+	"rate for" -> axles [dir=back]
 	rate -> motor [dir=back]
 	"rate for a" -> "euro iii category" [dir=back]
-	"rate for" -> axles [dir=back]
+	"rate for" -> "euro ii category" [dir=back]
+	"rate for a" -> "motor vehicles" [dir=back]
+	rate -> axles [dir=back]
+	rate -> "category euro i" [dir=back]
+	"rate for a" -> "None period year" [dir=back]
+	"rate for" -> "None a period year" [dir=back]
+	"rate for a" -> axles [dir=back]
 	rate -> category [dir=back]
 	"rate for a" -> "None period one year" [dir=back]
+	"rate for a for" -> "motor vehicles" [dir=back]
+	"rate for a for" -> "None period year" [dir=back]
+	"rate for a" -> category [dir=back]
+	"rate for a for" -> "cleaner category" [dir=back]
+	"rate for a" -> "euro iv category" [dir=back]
+	"rate for a for" -> axles [dir=back]
 }

@@ -3,7 +3,6 @@ import argparse
 import requests
 import text2dm
 from flask import Flask, request, jsonify
-from Translator import Vertaler
 
 app = Flask(__name__)
 

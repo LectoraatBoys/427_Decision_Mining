@@ -1,15 +1,14 @@
 ,Condition,Exception,Then-consequence,Else-consequence
-0,period of one yearmotor vehicles with three axles or less and in euro 0 category,/,"rate is € 1,407",/
-1,None of one yearmotor vehicles with three axles or less and in euro i category,/,"rate for period is €1,223",/
-2,/,/,"ii €1,065",/
-3,period of one yearmotor vehicles with three axles or less and in euro iii category,/,rate is € 926,/
-4,period of one yearmotor vehicles with three axles or less and in euro iv category,/,rate is € 842,/
-5,period of one yearmotor vehicles with three axles or less and in euro v category,/,rate is € 796,/
-6,None one yearmotor vehicles with three axles or less and in euro vi and cleaner category is,/,rate for period of € 750 this is filler phrase,/
-7,period of one yearmotor vehicles with four axles or more and in euro iii category,/,"rate is € 2,359",/
-8,None of one yearmotor vehicles with four axles or more and in euro i category,/,"rate period is € 2,042",/
-9,period of one yearmotor vehicles with four axles or more and in euro iii category,/,"rate is € 1,776",/
-10,period of one yearmotor vehicles with four axles or more and in euro iii category,/,"rate is € 1,543",/
-11,period of one yearmotor vehicles with four axles or more and in euro iv category,/,"rate is € 1,404",/
-12,period of one yearmotor vehicles with four axles or more and in euro v category,/,"rate is € 1,327",/
-13,period of one yearmotor vehicles with four axles or more and in category euro euro vi and cleaner,/,"rate for is € 1,250",/
+0,one-year periodmotor vehicles with three axles or less and in euro 0 category,/,"fee for is €1,407",/
+1,"motor vehicles with three axles or less and in euro i category € 1,223 with three axles or less",/,"rate shall be for period of one year this is filler sentence.the rate shall be for period of one year for motor vehicles and in euro ii category € 1,065",/
+2,None with three axles or less and in euro iii category € 926,/,rate shall be for period of one year motor vehicles,/
+3,motor with three axles or less and in euro iv category,/,rate shall be €842 period of one year vehicles,/
+4,None with three axles or less and in euro v category €796,/,rate shall be for period of one year motor vehicles,/
+5,motor vehicles with three axles or less and in euro vi and cleaner category € 750,/,rate shall be for period of one year this is filler sentence,/
+6,"motor with four axles or more and in euro 0 category € 2,359",/,rate shall be for period of one year vehicles,/
+7,"None with four axles or more and in euro i category €2,042",/,rate shall be for period of one year motor vehicles,/
+8,None with four axles or more and in euro ii category,/,"rate shall be €1,776 for period of one year motor vehicles",/
+9,None with four axles or more and in euro iii category,/,"rate shall be €1,543 for period of one year motor vehicles",/
+10,motor with four axles or more and in euro ii category,/,"rate shall be €1,404 period of one year vehicles",/
+11,motor with four axles or more and in euro ii category,/,"rate shall be €1,327 period of one year vehicles",/
+12,motor with four axles or more and in euro vi and cleaner category,/,"rate shall be € 1,250 for period of one year vehicles",/

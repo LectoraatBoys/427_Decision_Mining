@@ -3,10 +3,14 @@ import argparse
 import requests
 import text2dm
 from flask import Flask, request, jsonify
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/endpoint', methods=['POST'])
+@cross_origin()
 def handle_post():
     """
     To access the /endpoint route and execute the handle_post function,

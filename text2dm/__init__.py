@@ -7,13 +7,12 @@ from text2dm import drd_tuple_construction
 from text2dm import drd_graph_construction
 from text2dm import logic_extraction
 from text2dm import xml_extraction
-from deepl import Translator
+
 import pandas as pd
 import warnings
 import os
-from os.path import join, dirname
 import time
-from dotenv import load_dotenv
+
 
 
 # settings
@@ -24,10 +23,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 warnings.simplefilter(action='ignore', category=UserWarning)
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-dotenv_path = join(dirname(__file__), '.env')
-load_dotenv(dotenv_path)
 
-api = os.environ.get("api_key")
 
 def classification(text):
     start = int(round(time.time() * 1000))
@@ -51,11 +47,6 @@ def text2drd(text):
     :param text: string
     :return: drd_tuple: (D, I, R) with D set of decision, I set of input information items and R set of requirements
     """
-
-    translator = Translator(api)
-    translation = translator.translate_text(text, target_lang='EN-US')
-    print(f"translation: {translation}")
-    text = translation.text
 
     # step 1: coreference resolution
     coref_resolved = coreference_resolution.resolve_coref(text)
@@ -131,11 +122,6 @@ def get_multiple_drd_tuples(df_examples):
 
 
 def extract_logic_table(text):
-    translator = Translator(api)
-    translation = translator.translate_text(text, target_lang='EN-US')
-    print(f"translation: {translation}")
-    text = translation.text
-
     coref_resolved = coreference_resolution.resolve_coref(text)
     # step 1: coreference resolution
     print('STEP 1/3 DONE: coreference resolution')

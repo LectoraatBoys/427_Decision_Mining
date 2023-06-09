@@ -2,8 +2,18 @@ import pandas as pd
 import argparse
 import requests
 import text2dm
+from deepl import Translator
+from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from flask_cors import CORS, cross_origin
+
+import os
+from os.path import join, dirname
+
+dotenv_path = join(dirname(__file__), '.env')
+load_dotenv(dotenv_path)
+
+api = os.environ.get("api_key")
 
 app = Flask(__name__)
 cors = CORS(app)
@@ -24,6 +34,7 @@ def handle_post():
     # Pass the information to the bar function
     # Perform any necessary operations or decisions based on the result
 
+    info = translate_text(info)
     full_DMN_extraction(info, filename=file_name)
     # hier vind de overgang naar Goossens plaats
     # Return a response
@@ -56,6 +67,13 @@ def process_file(filename):
             str_builder.append(line)
 
     return "".join(str_builder)
+
+def translate_text(input_string):
+    translator = Translator(api)
+    translation = translator.translate_text(text, target_lang='EN-US')
+    print(f"translation: {translation}")
+    text = translation.text
+    return text
 
 def main():
     # dutch = 'input_folder/testcases Dutch.txt'

@@ -33,15 +33,20 @@ def handle_post():
     file_name = data['file_name']
     # Pass the information to the bar function
     # Perform any necessary operations or decisions based on the result
-
-    info = translate_text(info)
+   
     full_DMN_extraction(info, filename=file_name)
     # hier vind de overgang naar Goossens plaats
     # Return a response
-    response = {'message': 'Response from Python server'}
+
+
+    response = {'output_location_png': f'D:/HU Projects/Desicion_Mining_React_Frontend/Desicion_Mining_React_Frontend/src/DRD_outputs/{file_name}_result_tuple.png'
+                ,'output_location_csv': f'D:/HU Projects/Desicion_Mining_React_Frontend/Desicion_Mining_React_Frontend/src/DRD_outputs/{file_name}_test_result_logic.csv'
+                }
+    
     return jsonify(response)
 
 def full_DMN_extraction(text, filename):
+    text = translate_text(text)
     result_tuple, final_decision = text2dm.get_drd_graph(text)
     result_logic = text2dm.extract_logic_table(text)
 
@@ -68,7 +73,7 @@ def process_file(filename):
 
     return "".join(str_builder)
 
-def translate_text(input_string):
+def translate_text(text):
     translator = Translator(api)
     translation = translator.translate_text(text, target_lang='EN-US')
     print(f"translation: {translation}")
@@ -86,9 +91,9 @@ def main():
     # input_string = english
 
 
-    # input_string = process_file(parse_CMD_arg())
-    # input_name = "testcases_Dutch"
-    # full_DMN_extraction(input_string,filename=input_name)
+    input_string = process_file(parse_CMD_arg())
+    input_name = "testcases_Dutch"
+    full_DMN_extraction(input_string,filename=input_name)
     pass
 
 if __name__ == "__main__":
@@ -96,6 +101,6 @@ if __name__ == "__main__":
     # communicatie with Java
     # print(f"test print goossens {bar('foo')}")
     app.run()
-    # main()
+    #main()
     print("EINDE")
 

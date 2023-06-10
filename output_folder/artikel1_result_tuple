@@ -1,27 +1,27 @@
 // rate fee for a one-year period for
 digraph "rate fee for a one-year period for" {
-	period
-	"motor vehicles"
-	"euro 0 category"
-	cleaner
-	axles
-	motor
-	"motor vehicles with"
 	category
+	motor
 	euro
+	"motor vehicles"
+	cleaner
+	"motor vehicles with"
+	"euro 0 category"
+	axles
+	period
 	vehicles
 	rate [shape=box]
 	"fee for a one-year period for" [shape=box]
-	rate -> period [dir=back]
 	rate -> vehicles [dir=back]
 	"fee for a one-year period for" -> "euro 0 category" [dir=back]
-	rate -> "motor vehicles" [dir=back]
-	"fee for a one-year period for" -> "motor vehicles" [dir=back]
-	rate -> euro [dir=back]
-	"fee for a one-year period for" -> axles [dir=back]
-	rate -> axles [dir=back]
-	rate -> category [dir=back]
-	rate -> cleaner [dir=back]
-	rate -> motor [dir=back]
+	rate -> period [dir=back]
 	rate -> "motor vehicles with" [dir=back]
+	"fee for a one-year period for" -> axles [dir=back]
+	rate -> cleaner [dir=back]
+	rate -> axles [dir=back]
+	rate -> motor [dir=back]
+	"fee for a one-year period for" -> "motor vehicles" [dir=back]
+	rate -> category [dir=back]
+	rate -> euro [dir=back]
+	rate -> "motor vehicles" [dir=back]
 }

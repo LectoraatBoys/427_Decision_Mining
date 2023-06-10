@@ -1,43 +1,169 @@
-// rate rate for a for rate for a rate for
-digraph "rate rate for a for rate for a rate for" {
-	"euro ii category"
-	"euro iii category"
-	"None period one year"
-	axles
-	"motor vehicles"
-	"None a period year"
-	"category euro i"
-	category
-	"euro iv category"
-	"None period year"
-	"euro vi"
-	motor
-	vehicles
-	"cleaner category"
-	rate [shape=box]
-	"rate for a for" [shape=box]
-	"rate for a" [shape=box]
-	"rate for" [shape=box]
-	"rate for" -> "motor vehicles" [dir=back]
-	"rate for a for" -> "euro vi" [dir=back]
-	rate -> vehicles [dir=back]
-	rate -> "motor vehicles" [dir=back]
-	"rate for" -> axles [dir=back]
-	rate -> motor [dir=back]
-	"rate for a" -> "euro iii category" [dir=back]
-	"rate for" -> "euro ii category" [dir=back]
-	"rate for a" -> "motor vehicles" [dir=back]
-	rate -> axles [dir=back]
-	rate -> "category euro i" [dir=back]
-	"rate for a" -> "None period year" [dir=back]
-	"rate for" -> "None a period year" [dir=back]
-	"rate for a" -> axles [dir=back]
-	rate -> category [dir=back]
-	"rate for a" -> "None period one year" [dir=back]
-	"rate for a for" -> "motor vehicles" [dir=back]
-	"rate for a for" -> "None period year" [dir=back]
-	"rate for a" -> category [dir=back]
-	"rate for a for" -> "cleaner category" [dir=back]
-	"rate for a" -> "euro iv category" [dir=back]
-	"rate for a for" -> axles [dir=back]
+// service decision on an application for a permit scope of application of the the the directive service provider subjects authorization validity practical facilitating term of validity proper indefinite permit practical assistance in exercise of services number of available permits number settling disputes between security of central counter authorizations None of permit grant information central counter notification access to permit whose authorization of supervisory authorization
+digraph "service decision on an application for a permit scope of application of the the the directive service provider subjects authorization validity practical facilitating term of validity proper indefinite permit practical assistance in exercise of services number of available permits number settling disputes between security of central counter authorizations None of permit grant information central counter notification access to permit whose authorization of supervisory authorization" {
+	"criteria for applying for hallmarks"
+	"legal remedies available in other member states for a service provider and a business recipient"
+	provider
+	"minister of the"
+	recipient
+	general
+	"technical possibilities"
+	"meaning of certain labels"
+	"consumer and"
+	directive
+	competent
+	"consumer market authority"
+	"kingdom kingdom relations implementation section"
+	"minister of the interior"
+	"period of validity"
+	"community acts"
+	sectors
+	"manner in which competent authorities organize and make accessible information as referred to in 19"
+	requirement
+	"address details of non-profit associations organizations"
+	kingdom
+	"provision of services"
+	period
+	"contact details of associations and non-profit organizations"
+	services
+	available
+	reason
+	"other quality marks for services"
+	"None authority"
+	"continued fulfillment of the conditions of the permit"
+	"natural resources"
+	"codes of conduct adopted at"
+	"market market"
+	"competent bodies in member state"
+	scope
+	"legal person to use a service"
+	names
+	"community level"
+	provisions
+	"None duration"
+	administrative
+	"None requirement"
+	"competent authorities state business recipient assistance"
+	"kingdom relations"
+	"natural person is a national of a member state rights granted to him"
+	"service decision on an application for a permit" [shape=box]
+	"scope of application of the the the directive" [shape=box]
+	"service provider" [shape=box]
+	subjects [shape=box]
+	"authorization validity" [shape=box]
+	practical [shape=box]
+	facilitating [shape=box]
+	"indefinite permit" [shape=box]
+	"exercise of services" [shape=box]
+	duration [shape=box]
+	number [shape=box]
+	"security of central counter" [shape=box]
+	authorizations [shape=box]
+	"central counter" [shape=box]
+	"term of validity" [shape=box]
+	proper [shape=box]
+	"practical assistance in" [shape=box]
+	service [shape=box]
+	"number of available permits" [shape=box]
+	"settling disputes between" [shape=box]
+	"None of permit grant" [shape=box]
+	information [shape=box]
+	notification [shape=box]
+	"access to" [shape=box]
+	"permit whose" [shape=box]
+	"authorization of" [shape=box]
+	supervisory [shape=box]
+	authorization [shape=box]
+	duration -> reason [dir=back]
+	supervisory -> "market market" [dir=back]
+	"service provider" -> requirement [dir=back]
+	"None of permit grant" -> reason [dir=back]
+	proper -> "manner in which competent authorities organize and make accessible information as referred to in 19" [dir=back]
+	"exercise of services" -> "criteria for applying for hallmarks" [dir=back]
+	"access to" -> "criteria for applying for hallmarks" [dir=back]
+	authorizations -> "technical possibilities" [dir=back]
+	"service decision on an application for a permit" -> "None requirement" [dir=back]
+	"access to" -> "other quality marks for services" [dir=back]
+	"exercise of services" -> "other quality marks for services" [dir=back]
+	"settling disputes between" -> "competent authorities state business recipient assistance" [dir=back]
+	"indefinite permit" -> "continued fulfillment of the conditions of the permit" [dir=back]
+	"access to" -> "meaning of certain labels" [dir=back]
+	"exercise of services" -> "meaning of certain labels" [dir=back]
+	"central counter" -> "minister of the" [dir=back]
+	"settling disputes between" -> "contact details of associations and non-profit organizations" [dir=back]
+	subjects -> scope [dir=back]
+	"authorization validity" -> service [dir=back]
+	"scope of application of the the the directive" -> services [dir=back]
+	"access to" -> "codes of conduct adopted at" [dir=back]
+	"exercise of services" -> "codes of conduct adopted at" [dir=back]
+	"central counter" -> "kingdom relations" [dir=back]
+	proper -> "minister of the interior" [dir=back]
+	"authorization validity" -> "provision of services" [dir=back]
+	supervisory -> recipient [dir=back]
+	"number of available permits" -> "period of validity" [dir=back]
+	authorization -> period [dir=back]
+	authorizations -> available [dir=back]
+	number -> "natural resources" [dir=back]
+	"authorization of" -> period [dir=back]
+	"authorization validity" -> duration [dir=back]
+	notification -> provider [dir=back]
+	"None of permit grant" -> "None authority" [dir=back]
+	number -> "technical possibilities" [dir=back]
+	authorizations -> "natural resources" [dir=back]
+	"practical assistance in" -> names [dir=back]
+	"practical assistance in" -> "address details of non-profit associations organizations" [dir=back]
+	authorization -> "None duration" [dir=back]
+	"service provider" -> service [dir=back]
+	supervisory -> "consumer and" [dir=back]
+	"settling disputes between" -> "legal remedies available in other member states for a service provider and a business recipient" [dir=back]
+	"authorization of" -> "None duration" [dir=back]
+	practical -> "competent authorities state business recipient assistance" [dir=back]
+	facilitating -> "community level" [dir=back]
+	supervisory -> "consumer market authority" [dir=back]
+	practical -> "contact details of associations and non-profit organizations" [dir=back]
+	"number of available permits" -> "None authority" [dir=back]
+	"authorization of" -> duration [dir=back]
+	notification -> requirement [dir=back]
+	"number of available permits" -> reason [dir=back]
+	"settling disputes between" -> names [dir=back]
+	number -> available [dir=back]
+	facilitating -> "criteria for applying for hallmarks" [dir=back]
+	facilitating -> "other quality marks for services" [dir=back]
+	subjects -> services [dir=back]
+	service -> "kingdom relations" [dir=back]
+	supervisory -> "community acts" [dir=back]
+	"permit whose" -> "continued fulfillment of the conditions of the permit" [dir=back]
+	"practical assistance in" -> "competent bodies in member state" [dir=back]
+	facilitating -> "meaning of certain labels" [dir=back]
+	"authorization of" -> service [dir=back]
+	"settling disputes between" -> general [dir=back]
+	proper -> "kingdom kingdom relations implementation section" [dir=back]
+	practical -> general [dir=back]
+	"scope of application of the the the directive" -> sectors [dir=back]
+	facilitating -> "codes of conduct adopted at" [dir=back]
+	practical -> "legal remedies available in other member states for a service provider and a business recipient" [dir=back]
+	"term of validity" -> "continued fulfillment of the conditions of the permit" [dir=back]
+	"authorization of" -> "provision of services" [dir=back]
+	"security of central counter" -> "minister of the" [dir=back]
+	authorization -> duration [dir=back]
+	"security of central counter" -> "kingdom relations" [dir=back]
+	duration -> "period of validity" [dir=back]
+	subjects -> directive [dir=back]
+	service -> "minister of the" [dir=back]
+	"None of permit grant" -> "period of validity" [dir=back]
+	supervisory -> provisions [dir=back]
+	practical -> names [dir=back]
+	notification -> service [dir=back]
+	"authorization validity" -> period [dir=back]
+	supervisory -> "legal person to use a service" [dir=back]
+	"service provider" -> provider [dir=back]
+	authorization -> service [dir=back]
+	information -> kingdom [dir=back]
+	authorization -> "provision of services" [dir=back]
+	"authorization validity" -> "None duration" [dir=back]
+	supervisory -> administrative [dir=back]
+	supervisory -> "natural person is a national of a member state rights granted to him" [dir=back]
+	duration -> "None authority" [dir=back]
+	"access to" -> "community level" [dir=back]
+	"exercise of services" -> "community level" [dir=back]
+	supervisory -> competent [dir=back]
 }

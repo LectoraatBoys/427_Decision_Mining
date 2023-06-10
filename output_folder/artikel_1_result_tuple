@@ -1,0 +1,22 @@
+// rate
+digraph rate {
+	"motor vehicles with"
+	motor
+	iv
+	vehicles
+	euro
+	category
+	"motor vehicles"
+	axles
+	cleaner
+	rate [shape=box]
+	rate -> cleaner [dir=back]
+	rate -> "motor vehicles" [dir=back]
+	rate -> iv [dir=back]
+	rate -> category [dir=back]
+	rate -> motor [dir=back]
+	rate -> "motor vehicles with" [dir=back]
+	rate -> vehicles [dir=back]
+	rate -> axles [dir=back]
+	rate -> euro [dir=back]
+}

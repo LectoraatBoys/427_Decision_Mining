@@ -39,7 +39,7 @@ def extract_labels(text):
     length = len(sentences)
 
     for i in range(0, length):
-        inputs = tokenizer(sentences[i], return_tensors="pt")
+        inputs = tokenizer(sentences[i], return_tensors="pt", truncation=True)
         outputs = classifier1(**inputs)
 
         loss = outputs.loss
@@ -56,7 +56,7 @@ def extract_labels(text):
 
     for i in range(0, length):
         if predictions[i] == "relevant":
-            inputs = tokenizer(sentences[i], return_tensors="pt")
+            inputs = tokenizer(sentences[i], return_tensors="pt", truncation=True)
             outputs = classifier2(**inputs)
 
             logits = outputs.logits
@@ -90,7 +90,7 @@ def evaluate_classifier1(csv_file):
     total_rows = len(test_data)
 
     for i in range(0, total_rows):
-        inputs = tokenizer(test_data.loc[i, 'sentence'], return_tensors="pt")
+        inputs = tokenizer(test_data.loc[i, 'sentence'], return_tensors="pt", truncation=True)
         outputs = classifier1(**inputs)
 
         logits = outputs.logits
@@ -170,7 +170,7 @@ def evaluate_text_classification(csv_file):
 
     test_pred_class2 = []
     for i in range(0, len(test_sentence_class2)):
-        inputs = tokenizer(test_sentence_class2[i], return_tensors="pt")
+        inputs = tokenizer(test_sentence_class2[i], return_tensors="pt", truncation=True)
         outputs = classifier2(**inputs)
 
         logits = outputs.logits
